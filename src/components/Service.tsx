@@ -21,7 +21,7 @@ export default function Service({
   };
   return (
     <div className="@container">
-      <div className="bg-[#65646A] text-white  flex justify-center h-[510px]">
+      <div className="bg-[#65646A] text-white flex justify-center @[900px]:h-[510px]">
         <div className="flex justify-center max-w-[1300px]">
           <Tabs
             defaultValue="service"
